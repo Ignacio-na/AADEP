@@ -1,0 +1,91 @@
+:root {
+    --negro: #000000;
+    --amarillo: #FFD700;
+    --rojo: #FF4500;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--amarillo);
+    text-decoration: none;
+}
+
+/* Estilos para secciones */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+h1, h2, h3 {
+    color: var(--amarillo);
+}
+
+/* Estilos para tarjetas */
+.tarjeta {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Estilos para botones */
+.boton {
+    background-color: var(--amarillo);
+    color: var(--negro);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para formularios */
+.grupo-formulario {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--amarillo);
+    color: white;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    text-align: center;
+}
+
+.redes-sociales {
+    margin-bottom: 1rem;
+}
+
+.redes-sociales a {
+    color: var(--amarillo);
+    margin: 0 1rem;
+    text-decoration: none;
+}

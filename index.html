@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/page.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav style="background-color: black; color: white; padding: 10px; display: flex; align-items: center;">
+            <img src="assets/AADEP.jpg" alt="Logo" style="height: 40px; margin-right: 20px;">
+            <p> Asociacion de arbitros deportivos de cordoba</p>
+            <ul style="list-style: none; display: flex; margin: 0; padding: 0;">
+            <li style="margin-right: 15px;"><a href="#home" style="color: white; text-decoration: none;">Home</a></li>
+            <li style="margin-right: 15px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+            <li style="margin-right: 15px;"><a href="#services" style="color: white; text-decoration: none;">Services</a></li>
+            <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Título Principal</h1>
+            <p>Texto descriptivo</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <article>
+                    <h3>Servicio 1</h3>
+                    <p>Descripción del servicio</p>
+                </article>
+                <!-- Más artículos -->
+            </div>
+        </section>
+
+        <form>
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="grupo-formulario">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-contenido">
+            <div class="redes-sociales">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>&copy; 2024 Tu Empresa</p>
+        </div>
+    </footer>
 </body>
 </html>
